@@ -9,3 +9,4 @@ if msvcrt.khbit():
     key = msvcrt.getch()
     if ord(key) == 32:
         print "Spacebar = Pressed"
+        sys.exit(0)
