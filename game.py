@@ -1,6 +1,6 @@
 import msvcrt
 import time
-
+import sys
 # PizzaClicker99
 
 Score = 0
