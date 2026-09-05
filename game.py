@@ -11,6 +11,8 @@ def mainmenu():
     print "| 2. My Website   |"
     print "| 3.    Exit      |"
     print "==================="
+
+    mainmenuinput = raw_input("Enter a Number from 1-3")
     
 while 1:
 
