@@ -1,7 +1,11 @@
-import keyboard
+import msvcrt
+import time
 
 # PizzaClicker99
 
 while 1:
- if keyboard.is_pressed("space"):
-   print("Test Sucessful")
+ if msvcrt.khbit():
+  key = msvcrt.getch()
+
+  if key = ' ':
+   print "Spacebar = Pressed"
