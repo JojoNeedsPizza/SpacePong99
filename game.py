@@ -2,5 +2,6 @@ import keyboard
 
 # PizzaClicker99
 
-if keyboard.is_pressed("space"):
-  print("Test Sucessful")
+while 1:
+ if keyboard.is_pressed("space"):
+   print("Test Sucessful")
