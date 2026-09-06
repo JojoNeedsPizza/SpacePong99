@@ -27,7 +27,7 @@ while 1:
  sys.stdout.write ('\r[' + leerlinks + leiste + leerrechts + ']')
  sys.stdout.flush()
 
- emptyleft = " " * pos
+ leerlinks  = " " * pos
 
  key = ord(msvcrt.getch())
  
