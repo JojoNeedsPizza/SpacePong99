@@ -45,7 +45,7 @@ while 1:
    elif richtung == 77:
 
     if pos < (spielfeldbreite - leistenbreite):
-     pos = pos + 1
+     pos = pos +1
 
  if msvcrt.kbhit():
   key = ord(msvcrt.getch())
